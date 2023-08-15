@@ -1,0 +1,61 @@
+.form-container {
+    padding: 20px;
+    height: auto;
+    width: auto;
+    // max-width: 70svw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 20px
+}
+
+.userInputStyle {
+    padding-bottom: 10px;
+}
+
+.uploadBtn {
+    height: 50px;
+    width: 100% // display: flex;
+}
+
+;
+
+.styleDivs {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.ImageControlBtn {
+    height: 8svh;
+    width: 19svw;
+}
+
+.imageStyle {
+    width: 20%;
+    height: 20%;
+    border-radius: 10px;
+}
+
+.alignDivToCenter {
+    display: flex;
+    padding-bottom: 10px;
+    justify-content: center;
+    column-gap: 10px;
+}
+.h2 {
+    margin: 10px;
+}
+
+.phoneContactField{
+    display:flex;
+    padding-top:10px;
+  }
+
+.phoneInputField{
+    padding-left:10px;
+    width:100%;
+  }

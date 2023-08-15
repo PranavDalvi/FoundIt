@@ -1,0 +1,36 @@
+:root{
+    --GBlue: #1976d2
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+}
+
+.map-container{
+    padding: 20px;
+    height: auto;
+    width: 100svw;
+    // max-width: 70svw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin:20px
+}
+
+.leaflet-container{
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+}
+
+.topControl {
+    display: flex;
+    padding: 10px 0px 10px 0px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}

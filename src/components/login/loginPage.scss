@@ -1,0 +1,21 @@
+.loginConatiner {
+    // width: 100svw;
+    height: 70svh;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.subLoginContainer {
+    min-width: 40%;
+    max-width: 80%;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}

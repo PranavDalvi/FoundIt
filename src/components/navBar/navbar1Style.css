@@ -1,0 +1,102 @@
+.space-for-nav{
+	height: 85px;
+}
+
+.NavbarItems{
+	display:flex;
+	justify-content:space-between;
+	align-items: center;
+	font-size:20px;
+	padding:0 30px;
+	background:#1976d2;
+	box-shadow:0 5px 15px rgba(0,0,0,0.5);
+	width:96%;
+	height: 80px;
+	border-radius:13px;
+	position:fixed;
+	top:10px;
+	left:50%;
+	transform:translate(-50%);
+	z-index: 1001;
+	/* z-index of react-leaflet is 1000 */
+}
+
+.nav-menu{
+	display:flex;
+	column-gap:10px;
+	list-style:none;
+	align-items:center;
+	text-align:center;
+	justify-content:flex-end;
+}
+
+.nav-links{
+	text-decoration:none;
+	color:#f2f2f2;
+	padding: 5px 10px;
+	white-space:nowrap;
+}
+
+.nav-links:hover{
+	background:#f2f2f2;
+	color:#161616;
+	border-radius:4px;
+	transition: all 0.2s ease-in-out;
+}
+
+.logo-style{
+	filter: invert(1);
+}
+
+.menu-icon{
+	filter: invert(1);
+}
+
+.navbar-menu{
+	display:none
+}
+
+@media screen and (max-width:850px){
+	.NavbarItems{
+		z-index:1001;
+	}
+	.nav-menu{
+		flex-direction:column;
+		row-gap:30px;
+		justify-content:flex-start;
+		background:rgba(25,118,210,.9);
+		box-shadow:0 8px 32px 0 rgba(31,38,135,.37);
+		backdrop-filter:blur(4px);
+		border-radius:13px;
+		width:100%;
+		height:auto;
+		position:absolute;
+		top:0;
+		left:110%;
+		align-items:stretch;
+		padding:80px 0 30px 0;
+		margin:0;
+		z-index:-1;
+		transition:all 0.5s ease-in-out;
+	}
+
+	.nav-menu.active{
+		left:0%;
+	}
+
+	.nav-links{
+		display:block;
+		padding:24px 0;
+	}
+	.navbar-menu{
+	display:block
+}
+
+}
+
+@media screen and (min-width: 1500px) {
+	.NavbarItems {
+	  max-width: 1500px;
+	  margin: 0 auto; /* Center the content horizontally */
+	}
+  }

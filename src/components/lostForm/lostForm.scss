@@ -1,0 +1,40 @@
+.lostFormWindow{
+background: #fff;
+};
+
+.userInputStyle{
+padding-bottom: 10px;
+};
+
+.uploadBtn{
+height: 50px;
+width: 100%
+// display: flex;
+};
+
+.styleDivs{
+display: flex;
+flex-direction: column;
+row-gap: 20px;
+};
+
+.ImageControlBtn{
+height: 8svh;
+width: 19svw;
+};
+
+.imageStyle{
+width: 40%;
+height: 40%;
+border-radius: 10px;
+};
+
+.alignDivToCenter{
+display: flex;
+padding-bottom: 10px;
+justify-content: center;
+};
+
+.h2{
+    margin: 10px;
+}
